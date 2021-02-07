@@ -1,0 +1,24 @@
+{{>header}}
+{{>navbar}}
+<div class="bg-primary p-4 rounded mb-4 border border-2 border-black">
+    <nav aria-label="breadcrumb container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active text-white fs-1 text-capitalize"><a href="/" class="text-white">Home</a></li>
+            <li class="breadcrumb-item active text-white fs-1 text-capitalize"><a href="/posts" class="text-white">Posts</a></li>
+            <li class="breadcrumb-item text-white fs-1 text-capitalize">{{data.title}}</li>
+
+        </ol>
+    </nav>
+</div>
+<main class="container">
+    <div class="card p-3 bg-light">
+        <div class="card-body">
+            {{#with data}}
+            <h3 class="fs-2 text-success">{{title}}</h3>
+                <p class="lead text-muted">{{body}}</p>
+            {{/with}}
+            <a href="/" class="btn-btn-primary">back home</a>
+        </div>
+    </div>
+</main>
+{{>footer}}
