@@ -1,0 +1,23 @@
+{
+  "name": "shepheredblog",
+  "version": "1.0.0",
+  "description": "Ablog for articles and posts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abdelalim2000/shepheredblog.git"
+  },
+  "keywords": [
+    "shepheredblog",
+    "articles"
+  ],
+  "author": "mohamed.abdelalim2000@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdelalim2000/shepheredblog/issues"
+  },
+  "homepage": "https://github.com/abdelalim2000/shepheredblog#readme"
+}
