@@ -10,9 +10,9 @@ const hbs = require('hbs')
 const path = require('path')
 
 // paths
-const publicPath = path.join(__dirname, 'public')
-const viewsPath = path.join(__dirname, 'resources/views')
-const layoutPath = path.join(__dirname, 'resources/layouts')
+const publicPath = path.join(__dirname, '/public')
+const viewsPath = path.join(__dirname, '/resources/views')
+const layoutPath = path.join(__dirname, '/resources/layouts')
 
 // express settings config
 app.use(express.static(publicPath))
